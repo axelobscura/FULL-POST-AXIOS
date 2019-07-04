@@ -37,7 +37,7 @@ class Posts extends Component {
   }
 
   render(){
-    let posts = <p style={{textAlign: 'center'}}>SOMETHING IS WORNG!!!</p>;
+    let posts = <p style={{textAlign: 'center'}}>SOMETHING IS VERY WORNG!!!</p>;
 
     if(!this.state.error){
         posts = this.state.posts.map(post => {
